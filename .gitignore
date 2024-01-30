@@ -14,9 +14,7 @@
 /out/
 
 # production
-/build
-
-/src/openapi
+/dist
 
 # misc
 .DS_Store
@@ -35,6 +33,3 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
-
-certificates

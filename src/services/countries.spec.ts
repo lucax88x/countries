@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { answerCapital, getRandomCountry } from "./countries";
+import { getRandomCountry } from "./countries";
 
 test("get random country does not explode", () => {
   const country = getRandomCountry();
